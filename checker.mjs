@@ -71,11 +71,11 @@ const processBatch = async (start, end) => {
 
 // Main function to iterate over the domains in batches
 const main = async () => {
-    for (let i = 1000; i <= 1902; i += batchSize) {
+    for (let i = 1800; i <= 1902; i += batchSize) {
         const end = Math.min(i + batchSize - 1, 1902);
         await processBatch(i, end);
     }
     console.log(chalk.blue('Finished checking domains.'));
 };
 
-// main().catch(error => console.error(chalk.red('Error:', error)))
+main().catch(error => console.error(chalk.red('Error:', error)))
