@@ -105,3 +105,7 @@ https://child-895.vercel.app/proxy
 https://child-896.vercel.app/proxy
 https://child-897.vercel.app/proxy
 https://child-898.vercel.app/proxy
+https://child-892.vercel.app/proxy
+https://child-894.vercel.app/proxy
+https://child-899.vercel.app/proxy
+https://child-1002.vercel.app/proxy
