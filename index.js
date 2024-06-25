@@ -39,4 +39,4 @@ async function createProject(name, repo, token) {
     await base.startDeployment(name, teamId, gitRepoInfo.id, token)
 }
 
-main().catch(console.error);
+// main().catch(console.error);
