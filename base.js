@@ -17,8 +17,10 @@ class Base {
             }
         }).catch(e => e);
 
-        if (response.response) return null;
-        else return response.data.user;
+        if (response.response) {
+            console.log(response.response.data)
+            return null
+        } else return response.data.user;
     };
 
     /**
@@ -55,8 +57,10 @@ class Base {
             }
         }).catch(e => e);
 
-        if (response.response) return null;
-        else return response.data;
+        if (response.response) {
+            console.log(response.response.data)
+            return null
+        } else return response.data;
     };
 
     /**
@@ -107,7 +111,10 @@ class Base {
             }
         }).catch(e => e);
 
-        if (response.response) return null;
+        if (response.response) {
+            console.log(response.response.data)
+            return null
+        }
         else return response.data.project;
     };
 
@@ -136,8 +143,10 @@ class Base {
             }
         }).catch(e => e);
 
-        if (response.response) return null;
-        else return response.data;
+        if (response.response) {
+            console.log(response.response.data)
+            return null
+        } else return response.data;
     };
 
     /**
@@ -164,8 +173,10 @@ class Base {
             }
         }).catch(e => e);
 
-        if (response.response) return null;
-        else return response.data;
+        if (response.response) {
+            console.log(response.response.data)
+            return null
+        } else return response.data;
     }
 };
 
